@@ -15,7 +15,7 @@ Clone this authorized repository and serve the repository root with any static s
 - `assets/js/content.js`: training programs, FAQs and gallery entries.
 - `index.html`: core page copy, contact details and section structure.
 - `assets/css/styles.css`: design tokens and responsive presentation.
-- Gallery entries are intentionally placeholders. Replace them only with authentic approved Tribe Fitness images; when real image files are added, update the gallery renderer in `main.js` to output responsive `<img>` elements with meaningful alt text, width/height, `loading="lazy"` and `decoding="async"`.
+- The current hero/community/gallery photography is representative fitness imagery sourced from Unsplash and is not presented as Tribe Fitness premises, staff or members. Replace it with authentic approved Tribe Fitness photography when available. Image URLs live in `index.html` and `assets/js/content.js`; responsive images use lazy loading where appropriate.
 - Address, map, timings, pricing, social profiles, trainer names and testimonials are intentionally omitted/pending verification. Do not publish guesses.
 - The testimonials container is hidden in `index.html` and should only be activated with authentic approved quotes.
 
@@ -54,3 +54,7 @@ See `WORDPRESS-MAPPING.md` for section-by-section mapping. In summary:
 ## Content integrity
 
 No pricing, physical address, opening hours, member counts, awards, trainer identities, performance results or testimonials are claimed because these facts were not supplied as verified information.
+
+## Representative image sources
+
+Current visual placeholders use Unsplash images under the Unsplash License. Source photo IDs: `P95p60k-DnY`, `78E-sY8mVsM`, `-8lajF7J8T0`, `UpJkZIv4fM4`, and `xrvM5LBIUdY`. These are visual stand-ins only and must not be described as Tribe Fitness facilities, members, trainers or results.
